@@ -2,6 +2,8 @@
 # FT Industries Chargemaster-3000
 ![preview](https://github.com/FTIndustries/chargemaster-3000/blob/main/3dpreview.png?raw=true)\
 BQ25606칩에 기반한 리튬이온/리튬폴리머 배터리 충전 모듈입니다. 최대 3A로 배터리를 충전할 수 있습니다. 입력부가 TVS로 보호되어 있어 정전기로부터 최소한의 방호력을 지닙니다. USB-PD 장치로 기능하며 9V의 전압을 입력받습니다. 과충전 방지, 전원 경로 제어, 최대 충전 전류 설정을 제공합니다. 충전 중에도 안전하게 배터리 전원을 사용할 수 있어 전류 부족에 대해 걱정할 필요가 없습니다.
+## 배터리 전압 설정
+배터리 전압은 초기에 4.2V로 설정되어 있습니다. 전면의 VSET 점퍼를 납땜하여 4.35V로 설정할 수 있습니다.
 ## 최대 충전 전류 설정
 ![backpreview](https://github.com/FTIndustries/chargemaster-3000/blob/main/pcbbackpreview.png?raw=true)\
 최대 충전 전류는 초기에 3A로 설정되어 있습니다. 모듈 뒤의 점퍼를 끊어서 2A로 제한할 수 있습니다. 3A 전류로 다시 설정하려면 점퍼를 납땜하세요.
