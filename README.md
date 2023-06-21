@@ -2,6 +2,8 @@
 # FT Industries Chargemaster-3000
 ![preview](https://github.com/FTIndustries/chargemaster-3000/blob/main/3dpreview.png?raw=true)\
 Lithium ion/polymer battery charging module based on BQ25606. It can charge batteries at up to 3000mA speed. Its input section is protected with TVS. So it is kind of safe from ESD. Also, it act as USB-PD device to draw 9V. It provides overcharge protection, power path control, selectable max charging currnet. It can draw current from battery even while charging so you don't need to worry about low current situation.
+## setting battery voltage
+By default, battery voltage is set to 4.2V. You can set it to 4.35V by soldering VSET jumper.
 ## selecting max charging current
 ![backpreview](https://github.com/FTIndustries/chargemaster-3000/blob/main/pcbbackpreview.png?raw=true)\
 Maximum charging current is set to 3A by default. You can reduce it to 2A by cutting the jumper on the back of the module. To set the current to 4A again, solder the jumper.
