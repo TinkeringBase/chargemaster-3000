@@ -6,7 +6,7 @@ Lithium ion/polymer battery charging module based on BQ25606. It can charge batt
 By default, battery voltage is set to 4.2V. You can set it to 4.35V by soldering VSET jumper.
 ## selecting max charging current
 ![backpreview](https://github.com/FTIndustries/chargemaster-3000/blob/main/pcbbackpreview.png?raw=true)\
-Maximum charging current is set to 3A by default. You can reduce it to 2A by cutting the jumper on the back of the module. To set the current to 4A again, solder the jumper.
+Maximum charging current is set to 3A by default. You can reduce it to 2A by cutting the jumper on the back of the module. To set the current to 3A again, solder the jumper.
 ## warning about charging current
 Do not charge the battery exeeding your battery's spec. The battery will be overheated and damaged, and possibly catch on fire. if your battery allows 0.5C charge rate and has capacity of 2000mAh, then maximum charging current is 1000mA. (2000*0.5)
 ## connector
